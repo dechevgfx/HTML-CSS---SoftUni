@@ -1,0 +1,51 @@
+main#wrapper{
+    width: 700px;
+    height: 730px;
+    border: 1px solid #000000;
+    position: center;
+    padding: 10px;
+    background-color: #a6e1ec;
+
+
+}
+span.text{
+    color: #3f51b5;
+}
+img.img1{
+width: 200px;
+margin-right: 10px;
+vertical-align: middle;
+}
+img.img2{
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+img.img3{
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+li.stad1{
+width: 595px;
+padding: 10px;
+margin-bottom: 5px;
+font-size: 14px;
+border: 1px solid #000000;
+}
+li.stad2{
+    width: 595px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #000000;
+}
+li.stad3{
+    width: 595px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #000000;
+}
