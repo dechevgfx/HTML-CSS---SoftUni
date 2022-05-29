@@ -1,0 +1,30 @@
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    outline: none;
+    border: solid;
+    border-color: black;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    opacity: 1;
+    padding: 8px 18px;
+    background-color: rgb(251, 251, 251);
+}
+
+.hover:hover {
+    color: rgb(0, 102, 0);
+    border: solid;
+    border-color: rgb(0, 102, 0);
+}
+
+.fill {
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.fill.hover:hover {
+    background-color: rgb(0, 102, 0);
+    color: rgb(251, 251, 251);
+}
