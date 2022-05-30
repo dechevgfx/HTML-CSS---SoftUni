@@ -1,0 +1,54 @@
+
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+body{
+    padding: 0;
+    margin: 0;
+}
+#one {
+   background-image: linear-gradient(to right, rgb(25, 95, 160), rgb(65, 205, 160));
+
+
+}
+
+#two {
+    background-image: linear-gradient(to right, rgb(170, 50, 120), rgb(210,130,20));
+   
+}
+
+.viewport{
+
+    height: 80%;
+    position: relative;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#one img{
+    width: 100%;
+    height: auto;
+}
+#two img{
+    width: 100%;
+    height: auto;
+}
+
+i {
+    color: white;
+    position: absolute;
+}
+
+.fa-link {
+    top: 88%;
+    left: 92%;
+}
+
+.fa-star {
+    top: 94%;
+    left: 92%;
+}
