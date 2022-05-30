@@ -1,0 +1,113 @@
+body{
+    background: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5rem;
+    padding: 20px 130px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+    padding: 20px 0;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 2px rgb(0 0 0 / 25%);
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0);
+}
+
+p {
+    padding-bottom: 30px;
+    
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 3px solid lightgrey;
+    color: #757171;
+    font-style: italic;
+    padding-left: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+
+.main {
+    width: 73%;
+    margin-right: 65px;
+}
+
+.main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.site-header {
+    border-bottom: 3px solid black;
+}
+
+header p {
+    width: 77%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    display: inline-block;
+    padding: 5px;
+
+}
+header nav{
+  display: inline-block;
+}
+
+header nav li{
+    color: rgb(0, 102, 0) ;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.picture1 {
+    float: right;
+    margin: 0 20px 20px 20px;
+}
+
+.author {
+      display: block;
+      text-align: right;
+      margin-top: 32px;
+    }
+
+
+.inner-section-text,
+blockquote {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 45px;
+    width: 45%
+}
+
+.third-article p {
+    margin-left: 10px;
+}
+
+
+.picture2 {
+  float: left;
+  margin-right: 20px;
+}
+
