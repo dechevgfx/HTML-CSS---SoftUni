@@ -8,4 +8,6 @@ rules in CSS. The latest developments in the HTML5 and CSS3 standards are covere
 you in real-world web design projects, implementing site fragments, and creating complete modern websites with a good look, modern structure, and
 mobile support.
 
-https://softuni.bg/Certificates/Details/136938/f1ca766a
+
+![HTML   CSS - May 2022 - Certificate](https://user-images.githubusercontent.com/101424579/178363532-3d235f95-f002-4475-9e0d-28fc14d69c17.jpeg)
+
