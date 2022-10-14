@@ -1,0 +1,222 @@
+@import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PT Sans, serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+        url(./image/computer-main.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.upper-section > p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.upper-section .subtitle {
+    width: 400px;
+}
+
+body nav {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+body ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+body ul li span,
+body ul li i {
+    color: white;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+body .upper-section {
+    text-align: center;
+}
+
+body > section.upper-section > p:nth-child(2) {
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 2px 1px #000000;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.subtitle p {
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.buy-now-btn {
+    background: #00d58e;
+    border: 2px solid #00d58e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    margin-top: 1.3rem;
+}
+
+.buy-now-btn:hover {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+body > section > p:nth-child(5) {
+    margin-top: 3rem;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.first-section img {
+    width: 50%;
+    height: 50%;
+}
+
+.first-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section ul li i {
+    color: #00d58e;
+    text-shadow: none;
+    margin-right: 1rem;
+}
+
+.first-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.full-information {
+    margin-left: 30px;
+    padding: 0.5rem;
+    margin-top: 1.8rem;
+    line-height: 2;
+}
+.full-information .par {
+    font-size: 26px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.full-information p {
+    padding-left: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    max-width: 26rem;
+}
+
+body > section.first-section > section > p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.second-section > .icons-info {
+    font-size: 30px;
+    left: 3%;
+    top: 4%;
+}
+.second-section img {
+    width: 50%;
+    height: 50%;
+}
+
+.all-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    width: 50%;
+    margin-top: 100px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.card span {
+    color: #00d58e;
+    font-weight: bold;
+}
+
+.icons-info {
+    text-align: center;
+    margin-left: 7rem;
+    position: absolute;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-sectiton {
+    background: #b2f1de;
+    text-align: center;
+}
+
+.footer-sectiton ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 34px;
+    margin-bottom: 40px;
+}
+
+.footer-sectiton ul li {
+    display: grid;
+    grid-template-rows: repeat(3, 40px);
+    margin: 20px;
+    max-width: 19rem;
+}
+
+.footer-sectiton span {
+    font-weight: bold;
+}

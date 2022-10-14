@@ -1,0 +1,113 @@
+@media all and (max-width: 600px) {
+    main,
+    body,
+    html {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    section {
+        margin: 0px;
+        padding: 0px;
+    }
+    section:nth-child(2) article:nth-child(1) button {
+        display: none;
+    }
+    .left-to-right:first-child {
+        background-size: cover;
+        width: 47.9rem;
+    }
+    .left-to-right article:first-child {
+        border-radius: 25%;
+        width: 36rem;
+        height: 32rem;
+    }
+
+    .left-to-right article header {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 55px;
+        margin: 20px auto;
+        color: #1d3f61;
+    }
+
+    header p {
+        font-size: 2rem;
+        color: #1d3f61;
+    }
+
+    .left-to-right article > p {
+        font-size: 1.6rem;
+    }
+
+    .left-to-right article button {
+        display: none;
+    }
+
+    section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section:nth-child(2) article:nth-child(1) {
+        width: 48rem;
+        padding: 3rem;
+        padding-top: 0;
+    }
+
+    section:nth-child(2) article:nth-child(1) > p {
+        font-size: 1.6rem;
+    }
+
+    section:nth-child(2) article:nth-child(2) {
+        width: 55rem;
+    }
+
+    main section:nth-child(3) {
+        background-size: contain;
+        width: 47.9rem;
+        height: 60rem;
+    }
+
+    section form label input,
+    section form textarea {
+        font-size: 2rem;
+    }
+
+    form input[type="submit"] {
+        font-size: 2rem;
+    }
+
+    main section:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section:nth-child(4) input,
+    main section:nth-child(4) textarea {
+        width: 40rem;
+        padding: 1rem;
+    }
+
+    #send {
+        width: 10rem;
+        padding: 1rem;
+        margin-top: 3rem;
+        margin-left: 15rem;
+    }
+
+    section:nth-child(4) > article:nth-child(1) {
+        margin: 0 auto;
+        width: 65%;
+    }
+
+    section:nth-child(4) > article:nth-child(2) {
+        margin-left: 13rem;
+        width: 100%;
+    }
+    article .form {
+        align-items: center;
+    }
+}

@@ -1,0 +1,84 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Courgette", cursive;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+header {
+    padding: 32px;
+    padding-bottom: 0;
+}
+.title {
+    color: black;
+}
+
+.top-name {
+    font-size: 48px;
+    margin-left: 480px;
+}
+
+.bottom-name {
+    color: #cb242c;
+    font-size: 26px;
+    margin-left: 670px;
+}
+
+main ul {
+    list-style: none;
+    display: flex;
+    padding-left: 128px;
+}
+
+main ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 16px;
+}
+ul li p {
+    color: #333333;
+}
+
+main ul li img {
+    width: 320px;
+    height: 190px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+ul > li p:nth-child(2) {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+ul > li hr {
+    margin-top: 4px;
+    width: 270px;
+    border: none;
+    height: 1.3px;
+    background: #cb242c;
+}
+
+body main ul li p i {
+    color: #cb242c;
+}
+
+body > main > ul > li:nth-child(1) > p:nth-child(4) {
+    margin-bottom: 36px;
+}
